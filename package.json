@@ -12,18 +12,6 @@
     "lint:write": "eslint --debug --fix",
     "editorconfig": "editorconfig-checker"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.(js|ts|tsx)": [
-      "npm run prettier",
-      "npm run lint:write",
-      "git add"
-    ]
-  },
   "eslintConfig": {
     "extends": "react-app"
   },
