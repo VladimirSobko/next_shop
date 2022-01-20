@@ -19,6 +19,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: lavender;
 }
 
 .footer a {
@@ -106,6 +107,29 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.linkToList {
+  font-size: 30px;
+}
+
+.mainImg {
+  width: inherit;
+}
+
+.mainImgWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.socialWrap {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: space-around;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 @media (max-width: 600px) {

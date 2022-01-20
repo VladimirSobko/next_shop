@@ -1,0 +1,29 @@
+.layoutTitle {
+  margin: 10px 16px 0 16px;
+  padding: 0% 0.5% 0% 0.5%;
+  background-color: lavender;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart {
+  font-size: 60px;
+  transition: background-color 1s;
+  :hover {
+    background-color: rgb(210, 210, 245);
+  }
+}
+
+.cartWrapper {
+  position: relative;
+}
+
+.count {
+  position: absolute;
+  top: 20%;
+  left: 49%;
+  font-size: 14px;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.cardsWrapper {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 300px;
+  padding: 10px;
+  margin: 30px;
+}
+.orderBtnWrapper {
+  margin: 50px;
+}
+
+.btn {
+  font-size: 26px;
+}
