@@ -1,6 +1,7 @@
 {
   "name": "mobile_shop",
-  "private": false,
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,11 +10,7 @@
     "combine": "concurrently \"npm run dev\" \"npm run mock\"",
     "prettier": "prettier --write",
     "lint": "eslint --debug",
-    "lint:write": "eslint --debug --fix",
     "editorconfig": "editorconfig-checker"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "dependencies": {
     "@ant-design/icons": "^4.0.0",

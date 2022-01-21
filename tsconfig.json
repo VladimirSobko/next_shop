@@ -16,7 +16,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": "src",
+    "baseUrl": ".",
     "paths": {
       "@images/*": ["../public/images/*"],
       "@styles/*": ["../public/styles/*"]

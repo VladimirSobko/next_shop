@@ -1,13 +1,14 @@
+import Link from 'next/link';
 import { Button, Card } from 'antd';
 import { useSelector } from 'react-redux';
 
 import CardMeta from '../../components/CardMeta';
 
 import { AppState } from '../../store';
-import { composeOrder } from './helpers';
+import { composeOrder } from '../../helpers';
+
 
 import styles from './index.module.scss';
-import Link from 'next/link';
 
 const Cart = () => {
   const { Meta } = Card;
