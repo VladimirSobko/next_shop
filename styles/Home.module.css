@@ -132,6 +132,10 @@
   filter: drop-shadow(2px 4px 6px black);
 }
 
+.logo {
+  width: 50px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

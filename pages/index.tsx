@@ -36,8 +36,8 @@ export default function Home() {
       </Layout>
       <footer className={styles.footer}>
         <div className={styles.socialWrap}>
-          <img width={'50px'} src={sm.instagram} alt="instagram" />
-          <img width={'50px'} src={sm.vk} alt="vk" />
+          <img className={styles.logo} src={sm.instagram} alt="instagram" />
+          <img className={styles.logo} src={sm.vk} alt="vk" />
         </div>
       </footer>
     </div>
