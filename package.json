@@ -12,9 +12,6 @@
     "lint:write": "eslint --debug --fix",
     "editorconfig": "editorconfig-checker"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
     "@reduxjs/toolkit": "^1.7.1",
