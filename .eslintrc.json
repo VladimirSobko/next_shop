@@ -5,7 +5,6 @@
   },
   "extends": [
     "next/core-web-vitals",
-    "react-app",
     "airbnb",
     "prettier",
     "plugin:@typescript-eslint/eslint-recommended",

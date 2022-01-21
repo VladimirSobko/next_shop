@@ -1,4 +1,4 @@
-import { getCartCount } from "../../components/Layout/helpers";
+import { getCartCount } from "../components/Layout/helpers";
 
 export const composeOrder = (cart, goods) => {
   const sum = getCartCount(cart);
