@@ -19,7 +19,11 @@ const Case = () => {
   const goods = useSelector((state: AppState) => state.main.data);
 
   const choisedCase =
-    query && goods && goods.find((item) => item.id === +query.id);
+    query && goods && goods.find((item) => {
+      if (item.id === +query.id) {
+        return item;
+      }
+    });
 
   const handleAdd = (payload) => {
     dispatch(addInCart(payload));
